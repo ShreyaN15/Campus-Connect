@@ -58,3 +58,78 @@ p {
 .navbar a:hover {
     background-color: rgba(255, 69, 0, 1); /* Solid background on hover */
 }
+
+.card-section h2 {
+    color: black; /* Set the title color to black */
+    margin-bottom: 40px; /* Add margin below the title for spacing */
+}
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column; /* Stack cards vertically on smaller screens */
+        align-items: center; /* Center cards */
+    }
+
+    .card {
+        width: 90%; /* Make cards take up more width on smaller screens */
+        margin: 10px 0; /* Adjust margin for vertical stacking */
+    }
+}
+/* src/components/HomePage.css */
+.card-section {
+    text-align: center;
+    padding: 50px 20px; /* Add padding for spacing */
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for contrast */
+    margin-top: 100px; /* Remove margin to reduce space */
+}
+.card-section h2 {
+    color: black; /* Set the title color to black */
+    margin-bottom: 40px; /* Add margin below the title for spacing */
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around; /* Space out the cards */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.card {
+    background-color: #f9f9f9; /* Card background color */
+    border: 1px solid #ddd; /* Card border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    width: 220px; /* Fixed width for cards */
+    margin: 10px; /* Margin between cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s; /* Animation on hover */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Space between content and button */
+}
+
+.card h3, .card p {
+    color: black; /* Set text color to black */
+}
+.card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.card img {
+    width: 50px; /* Icon size */
+    height: 50px; /* Icon size */
+    margin-bottom: 10px; /* Space below the icon */
+}
+.view-button {
+    margin-top: auto; /* Push button to the bottom */
+    padding: 10px 15px;
+    background-color: rgba(255, 69, 0, 0.7); /* Button background */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    align-self: center; /* Center the button */
+}
+
+
+.view-button:hover {
+    background-color: rgba(255, 69, 0, 1); /* Solid background on hover */
+}
