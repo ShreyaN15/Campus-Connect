@@ -1,0 +1,60 @@
+/* src/components/HomePage.css */
+/* src/components/HomePage.css */
+.homepage {
+    position: relative;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.background-image {
+    background-image: url('../assets/home-college.webp'); /* Adjust the path as necessary */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Send the background to the back */
+}
+h1 {
+    font-size: 4rem; /* Increase the font size for the title */
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+p {
+    font-size: 1.5rem; /* Increase the font size for the paragraph */
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+
+.content {
+    position: relative;
+    z-index: 1; /* Bring content to the front */
+    padding: 100px 20px; /* Add padding to move content down */
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    padding: 20px; /* Add padding around the navbar */
+    background-color: rgba(47, 24, 16, 0.8); /* Semi-transparent background */
+    position: absolute; /* Position it at the top */
+    top: 0;
+    right: 0;
+    width: 100%; /* Full width */
+}
+
+.navbar a {
+    margin: 0 15px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 69, 0, 1); /* Solid background on hover */
+}
