@@ -6,7 +6,7 @@ import campusImage from '../assets/campus.jpg'; // Adjust the path as necessary
 
 const About = () => {
     return (
-        <div className="about-section">
+        <div className="about-section" id="about">
             <h2 className="about-title">About Campus</h2>
             <div className="about-content">
                 <img src={campusImage} alt="Campus" className="about-image" />
