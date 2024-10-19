@@ -1,0 +1,46 @@
+/* src/components/About.css */
+.about-section {
+    padding: 60px 20px; /* Increased padding for the section */
+    background-color: #f9f9f9; /* Light background color */
+    margin-top: 60px; /* Space above the section */
+    border-top: 2px solid #e0e0e0; /* Optional: Add a border for separation */
+}
+
+.about-title {
+    font-size: 2.5rem; /* Title size */
+    font-weight: bold; /* Bold title */
+    text-align: center; /* Center the title */
+    margin-bottom: 30px; /* Space below the title */
+}
+
+.about-content {
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack on small screens */
+    align-items: center; /* Center items */
+    justify-content: center; /* Center items vertically */
+}
+
+.about-image {
+    width: 100%; /* Full width on small screens */
+    max-width: 600px; /* Max width for larger screens */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 30px; /* Space below the image */
+}
+
+.about-text {
+    max-width: 600px; /* Max width for text */
+    text-align: left; /* Align text to the left */
+    padding: 0 20px; /* Add horizontal padding */
+}
+
+.about-text h3 {
+    font-size: 1.5rem; /* Subtitle size */
+    margin-top: 20px; /* Space above subtitle */
+}
+
+.call-to-action {
+    font-weight: bold; /* Bold call to action */
+    text-align: center; /* Center the call to action */
+    margin-top: 20px; /* Space above */
+}
