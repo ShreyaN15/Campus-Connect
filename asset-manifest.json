@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/your-repo-name/static/css/main.a307acbf.css",
+    "main.js": "/your-repo-name/static/js/main.72300021.js",
+    "static/media/sta0.jpg": "/your-repo-name/static/media/sta0.54bea4229590fc7c3264.jpg",
+    "static/media/home-college.webp": "/your-repo-name/static/media/home-college.20b79a66a82df41ad013.webp",
+    "static/media/sta2.jpg": "/your-repo-name/static/media/sta2.e39ba59b5fd1f9a12292.jpg",
+    "static/media/calci3.jpg": "/your-repo-name/static/media/calci3.d82b86928a32e25982ba.jpg",
+    "static/media/campus.jpg": "/your-repo-name/static/media/campus.45c8c3a8db6e59a3be33.jpg",
+    "static/media/sta1.jpg": "/your-repo-name/static/media/sta1.6e02adb77ef4bcdc7fac.jpg",
+    "static/media/books.jpeg": "/your-repo-name/static/media/books.784ecb3fddc7d9602c5d.jpeg",
+    "static/media/calci2.jpg": "/your-repo-name/static/media/calci2.174c2b44bc37427f70f9.jpg",
+    "static/media/electronics.jpeg": "/your-repo-name/static/media/electronics.7d80145fc6a0029947e7.jpeg",
+    "static/media/stationary.jpeg": "/your-repo-name/static/media/stationary.df228658117316ee1971.jpeg",
+    "static/media/book2.jpg": "/your-repo-name/static/media/book2.e4d356e442aa1c79610c.jpg",
+    "static/media/book11.jpg": "/your-repo-name/static/media/book11.4df7b8b886d890e50bf2.jpg",
+    "static/media/Book1.jpg": "/your-repo-name/static/media/Book1.ce4095304063c6dba63f.jpg",
+    "static/media/maps.jpeg": "/your-repo-name/static/media/maps.33e966744c853cf27a3f.jpeg",
+    "index.html": "/your-repo-name/index.html",
+    "main.a307acbf.css.map": "/your-repo-name/static/css/main.a307acbf.css.map",
+    "main.72300021.js.map": "/your-repo-name/static/js/main.72300021.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a307acbf.css",
+    "static/js/main.72300021.js"
+  ]
+}
