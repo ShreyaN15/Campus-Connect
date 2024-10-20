@@ -1,0 +1,27 @@
+/* src/components/Electronics.css */
+.electronics-page {
+    padding: 20px;
+    text-align: center;
+}
+
+.electronics-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.electronics-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 30%;
+    margin: 10px;
+    text-align: left;
+}
+
+.electronics-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
