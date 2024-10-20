@@ -1,0 +1,133 @@
+.eventChart {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.upcomingEvents h2,
+.eventDetails h2,
+.videoSection h2 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.eventGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.eventCard {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.eventCard:hover {
+    transform: translateY(-5px);
+}
+
+.eventCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.eventCard h3 {
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.eventCard p {
+    margin: 0 10px 10px;
+    color: #666;
+}
+
+.eventDetails {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.eventDetails img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.registerButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registerButton:hover {
+    background-color: #0056b3;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .eventGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .upcomingEvents h2,
+    .eventDetails h2,
+    .videoSection h2 {
+        font-size: 1.5rem;
+    }
+}
