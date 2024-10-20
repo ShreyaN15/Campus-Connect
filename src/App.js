@@ -42,7 +42,7 @@ import EventChart from './components/EventChart';
 import Books from './components/Books'; // Import Books component
 import Stationary from './components/Stationary'; // Import Stationery component
 import Electronics from './components/Electronics'; // Import Electronics component
-import MapComponent from './MapComponent'; // Import MapComponent
+// import MapComponent from './MapComponent'; // Import MapComponent TODO: Actually do some one !!!
 
 function App() {
     return (
@@ -61,7 +61,7 @@ function App() {
                 <Route path="/cucek-location" element={
                     <div>
                         <h1>CUCEK Location</h1>
-                        <MapComponent /> {/* MapComponent will be displayed here */}
+                        {/* <MapComponent /> MapComponent will be displayed here */}
                     </div>
                 } /> {/* CUCEK Location route */}
             </Routes>
