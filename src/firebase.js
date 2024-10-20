@@ -1,4 +1,9 @@
+
 import { initializeApp } from "firebase/app";
+import { getFirestore } from 'firebase/firestore'
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries 
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -7,10 +12,14 @@ const firebaseConfig = {
   projectId: "homepage-63476",
   storageBucket: "homepage-63476.appspot.com",
   messagingSenderId: "96498149035",
-  appId: "1:96498149035:web:c23364d79448bacdfd39ee"
+  appId: "1:96498149035:web:c5808c5b2ca249d1fd39ee"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-export default app; // Export the app for use in other files
+
+// Initialize Firestore (database)
+export const db = getFirestore(app);
+
+
