@@ -1,5 +1,6 @@
 
-#Campus Connect 
+# Campus Connect 
+
 Campus Connect is a comprehensive platform designed to enhance the campus experience by centralizing key services and resources. The project includes:
 
 Hostel Booking System: Users can browse, view details, and book available hostel rooms.
