@@ -1,6 +1,20 @@
+
+#Campus Connect 
+Campus Connect is a comprehensive platform designed to enhance the campus experience by centralizing key services and resources. The project includes:
+
+Hostel Booking System: Users can browse, view details, and book available hostel rooms.
+Campus Map: Interactive map highlighting essential locations like bus stops, clinics, shops, gyms, and more around the college.
+Hand-Me-Down Page: Marketplace for students to buy and sell used items, such as books and stationery.
+Events/Social Page: Dynamic feed displaying current campus events and activities.
+Developed using React, Firebase, and Orkes Conductor for efficient workflow management, Campus Connect aims to streamline campus life for students.
+
+https://github.com/user-attachments/assets/603f576f-e019-4b25-aac8-e83ba404e9ed
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
